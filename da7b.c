@@ -1,0 +1,23 @@
+//Write a C Program to compute the multiplication table of 1 - 5 using do-while.
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {int n,i;
+            do
+            {    printf("\n1.Table of 1\n2.Table of 2\n3.Table of 3\n4.Table of 4\n5.Table of 5\n6.Exit\n");
+                scanf("%d",&n);
+            if(n>0 && n<6)
+             for(i=1;i<=10;i++)
+                printf("%d ",i*n);
+             else if (n==6)
+                 exit(0);
+            else 
+                printf("Enter a valid option!");}
+                    while(1);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
