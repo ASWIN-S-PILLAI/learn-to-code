@@ -10,7 +10,7 @@
 int main() { char a[100]; char b; int i,n=0;
              gets(a);
             scanf("%c",&b);
-            for(i=0  ;i<=strlen(a);i++)
+            for(i=0  ;a[i]!='\0';i++)
                 if(a[i]==b)
                     n++;
                     printf("%d",n);
