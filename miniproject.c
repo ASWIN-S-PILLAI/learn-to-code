@@ -31,7 +31,7 @@ int main()
 {case 1:{ printf("Enter Ammount\n");
 scanf("%f",&y);
 x=x+y;
-printf("Balance=%f",x);
+printf("Balance=%0.2f",x);
 break;}
 
 case 2: {  printf("Enter Ammount\n");
@@ -42,7 +42,7 @@ printf("Insufficient Acc Balance");
 
 else
 {x=x-y;
-printf("Balance=%f",x);
+printf("Balance=%0.2f",x);
 
 }
 	break;
